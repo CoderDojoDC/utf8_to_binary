@@ -40,3 +40,10 @@ main ways:
      shaded. The children and adults that tried the activity without instruction
      would shade the binary 1s by default, so we switch the activity to shading
      binary 1s.
+
+## Creating images for Vistaprint
+
+I didn't have much luck trying to export PDFs from QCAD. The best route seemed
+to be making the outer dimensions (3.62" x 2.12") box visible and saving the
+image as a bitmap. In the bitmap export dialog, specify width 1085, height 635,
+pixels per unit 300, margin 0.
