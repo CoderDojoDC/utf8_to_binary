@@ -29,6 +29,20 @@ The utf8tobinary directory contains a Qt program that displays the binary
 form of a string in a way that can be copy/pasted. It was very helpful
 when creating the cards.
 
+Before you can build it, make sure that you have a C++ compiler and QT5. On
+Ubuntu, you can get this by running the following at a shell prompt:
+
+    sudo apt-get install g++ qt5-default
+
+To build, change to the utf8tobinary directory and do the following:
+
+    qmake utf8tobinary.pro
+    make
+
+The executable will be in the directory. To run it type:
+
+    ./utf8tobinary
+
 ## Notes
 
 The original CSED Week 2013 activity differs from this activity in a couple
